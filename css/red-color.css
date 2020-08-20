@@ -1,0 +1,25 @@
+.social_contact a:hover,.mynavbar .navbar-brand span,
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,
+.dropdown-menu ul li:hover,
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,
+.about-us .glyphicon-ok,.services .fa-bar-chart,
+.services .fa-picture-o ,.services .fa-shopping-bag	,
+.services .fa-map,.item h2,.contact .box i,
+.contact .box a:hover,.social_contact .fa-envelope-o,.fa-phone,
+.caros .info h2 span
+{
+	color: red;
+
+}
+
+.info .btn-danger,.call .cont .btn:hover,
+.team .info,.small-button,.box-color .fa-cog
+
+
+{
+	background-color: red;
+}
+.item p
+{
+	border:3px solid red;
+}

@@ -1,0 +1,481 @@
+
+body
+{
+	width: 100%;
+}
+
+
+
+.social_contact .ma 
+{
+	text-decoration: none;
+	color: black;
+}
+
+.social_contact
+{
+	font-size: 16px;
+}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse
+{
+	padding-bottom: 10px;
+}
+.social_contact .fa-phone
+{
+	margin-left: 30px;
+}
+.social_contact .icons
+{
+	float: right;
+}
+.social_contact .icons .fa-facebook,.icons.fa-google-plus,
+.icons.fa-twitter,.icons.fa-instagram
+{
+	border:5px solid #eee;
+}
+
+
+/*start nav bar */
+
+.mynavbar .navbar-brand 
+{
+	font-size: 60px;
+	
+}
+.navbar-default
+{
+	border-color: white;
+}
+
+.navbar-default .navbar-nav > li > a,.dropdown-menu li
+{
+	color: black;
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+}
+.navbar-default
+{
+	position: fixed;
+	padding: 30px;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+	width: 100%;
+	height: 80px;
+	background-color: #fff;
+	opacity: 1;
+	z-index: 9999;
+	border-bottom:1px solid #eee;
+}
+
+
+
+
+
+
+/*end navbar*/
+
+
+
+/*start carosal*/
+.caros
+{
+	background: url(../images/1.jpg) center center fixed;
+	background-size: cover;
+	width: 100%;
+	min-height: 300px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+.caros .info
+{
+	background-color: rgba(3,3,3, 0.5);
+	color: white;
+	min-height: 300px;
+}
+.caros .info h2
+{
+	font-size: 60px;
+	color:rgba(0, 15, 82, 1);
+	font-weight: bold;
+}
+.caros .info h2 span
+{
+	text-decoration: underline;
+
+}
+
+.info .btn-info
+{
+	background-color: navy;
+	font-size: 20px;
+	width: 150px;
+	margin-top: 50px;
+}
+.info .btn-danger
+{
+	
+	font-size: 20px;
+	width: 150px;
+	margin-top: 50px;
+}
+
+
+/*end carosal*/
+
+
+/*start about ius*/
+.about-us
+{
+	margin-bottom: 50px;
+}
+.about-us h2
+{
+	color: navy;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.about-us span
+{
+	font-size: 16px;
+}
+
+/*end about us*/
+
+
+
+/*start services*/
+
+.services h2
+{
+	color: navy;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 35px;
+}
+.services .box
+{
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+	box-shadow: 12px 12px 2px 1px rgba(234, 237, 241, 0.5);
+	padding:20px;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+/*end service*/
+
+
+/*start clints*/
+.clints h2
+{
+	color: navy;
+	font-size: 35px;
+	font-weight: bold;
+}
+.clints .clints-image img
+{
+	opacity: 0.5;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+.clints .clints-image img:hover
+{
+	opacity: 1;
+}
+/*end clints*/
+
+
+
+/*start portfilo*/
+	
+
+	.portfolio
+	{
+		margin-bottom: 60px;
+	}
+	.portfolio h2
+	{
+		font-size: 35px;
+		font-weight: bold;
+		color: navy;
+	}
+	.portfolio .over
+	{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		-webkit-transition:all 0.5s ease-in-out;
+		-o-transition:all 0.5s ease-in-out;
+		-moz-transition:all 0.5s ease-in-out;
+		transition:all 0.5s ease-in-out;
+	}
+	.portfolio .over:hover
+	{
+		background-color: rgba(1,1,1,0.8);
+	}
+	.portfolio .over:hover h3
+	{
+		color: #fff;
+		position: absolute;
+		top: 35%;
+		left: 25%;
+		font-size: 30px;
+	}
+	.head-part p
+	{
+		margin-bottom: 30px;
+	}
+
+
+/*end porofolio*/
+
+
+/*start testomnils*/
+.testm
+{
+	margin-bottom: 60px;
+}
+.testm h2
+{
+	color: navy;
+	font-weight: bold;
+	font-size: 35px;
+
+}
+.carousel-indicators li
+{height: 100px;
+	width: 100px;
+	border:2px solid #eee;
+}
+ .testm .carousel-indicators
+ {
+ 	position: static;
+	width: 100%;
+	margin-left: auto;
+ } 
+  .testm .carousel-indicators li
+ {
+ 	width: 100px;
+ 	height: 100px;
+ 	border-radius: 50%;
+ 	overflow: hidden;
+ 	text-indent: 0px;	
+ 	opacity: 0.1;
+ 	background-color: #eee;
+ } 
+  .testm .carousel-indicators  img
+ {
+ 	width: 100px;
+ 	height: 100px;
+ } 
+ .testm .carousel-indicators .active
+ {
+ 	opacity: 1;
+ 	background:none;
+ }
+
+.item h2
+{
+	font-size: 35px;
+	text-align: center
+}
+.testm #dd
+{
+	margin-bottom: 70px;
+}
+.item p
+{
+	font-size: 30px;
+	
+	padding: 10px;
+}
+
+
+/*end testomnials*/
+
+
+
+/*start call*/
+.call
+{
+	margin-bottom: 70px;
+}
+.call .cont
+{
+	width: 100%;
+	min-height: 300px;
+	background-color: #081e5b;
+	padding-top: 50px;
+
+}
+.call .cont h2
+{
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 35px;
+	font-weight: bold;
+}
+.call .cont p
+{
+	margin-bottom: 20px;
+	color: #fff;
+}
+.call .cont .btn
+{
+	margin-top: 80px;
+	margin-left: 10px;
+	width: 200px;
+	background-color:#081e5b; 
+	font-size: 30px;
+	transition:all 0.5s ease-in-out;
+	border:3px solid #fff;
+
+}
+
+
+/*end call*/
+
+
+/*start team*/
+	
+	.team
+	{
+		margin-bottom: 70px;
+	}
+	.team h2
+	{
+		color: #081e5b;
+		font-size: 35px;
+		font-weight: bold;
+	}
+
+	.team .info
+	{
+		text-align: center; 
+		padding: 10px;
+	}
+
+/*end team*/
+
+
+
+/*start contact us */
+	.contact
+	{
+		margin-bottom: 50px;
+	}
+	.contact h2
+	{
+		color: #081e5b;
+		font-size: 35px;
+		font-weight: bold;
+	}
+	.contact p
+	{
+		margin-bottom: 30px;
+	}
+	.contact .box
+	{
+		text-align: center;
+		border-right: 2px solid #eee;
+
+	}
+	.contact .box a
+	{
+		text-decoration: none;
+		transition: all 0.5s ease-in-out;
+	}
+
+	.contact-form input,.contact-form textarea, .contact-form button
+	{
+		margin-bottom: 20px;
+		font-size: 25px;
+		height: auto;
+	}
+
+
+/*end contact us*/
+
+
+/*start footer*/
+	
+	.footer
+	{
+		background-color: #eee;
+		width: 100%;
+		height: 200px;
+		padding: 20px;
+	}
+
+/*end footer*/
+
+
+
+/*start mouse */
+	
+	.small-button
+	{
+		min-width: 50px;
+		min-height: 40px;
+		text-align: center;
+		color: #eee;
+		float: right;
+		position: fixed;
+		bottom: 10px;
+		right: 10px;
+		z-index: 9999;
+		line-height: 40px;
+		display: none;
+		cursor: pointer;
+	}
+
+/*end mouse*/
+
+
+/*start box color*/
+	.box-color
+	{
+		position: fixed;
+		top: 100px;
+		left: 0px;
+		z-index: 999999999;
+	}
+	.box-color .box
+	{
+		width: 200px;
+		height: 100px;
+		background-color: #331;
+		float: left;
+		color: white;
+		display: none;
+	}
+	.box-color .color
+	{
+		width: 20px;
+		height: 20px;
+		margin-left: 10px;
+		display: inline-block;
+		margin-top: 5px;
+		cursor: pointer;
+	}
+	.box-color .fa-cog
+	{
+		
+		padding: 10px;
+		cursor: pointer;
+	}
+
+/*end box color*/
+
